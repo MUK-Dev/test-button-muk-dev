@@ -1,0 +1,37 @@
+{
+  "name": "test-button-muk-dev",
+  "version": "1.0.2",
+  "description": "This is test button made for a tutorial",
+  "main": "dist/cjs/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "MUK-Dev",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "tutorial",
+    "button",
+    "test"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/react": "^18.2.15",
+    "react": "^18.2.0",
+    "rollup": "^3.26.3",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}
